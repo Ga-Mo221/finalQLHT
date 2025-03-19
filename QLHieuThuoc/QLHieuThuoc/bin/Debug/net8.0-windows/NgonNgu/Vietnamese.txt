@@ -1,4 +1,4 @@
-                          Tiếng Việt
+Tiếng Việt
 Vui lòng nhập mật khẩu!
 Thông Báo
 Tên đăng nhập hoặc mật khẩu không chính xác
@@ -218,3 +218,9 @@ Chủ Nhật
 Lỗi: Kích Thước Grid Chưa Xác Định!
 Lưu Hình Ảnh Thành Công Tại:
 Lỗi Khi Lưu Ảnh: 
+Sản Phẩm Sắp Hết
+Sản Phẩm Bán Chạy Nhất
+Tổng Số Đơn Nhập
+Tổng Chi Phí
+Lợi Nhuận
+Tổng Số Lượng Khách Hàng

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\QLHT\\QLHieuThuoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|d:\\qlht\\qlhieuthuoc\\qlhieuthuoc\\forms\\nhanvien\\themlichlam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|solutionrelative:qlhieuthuoc\\forms\\nhanvien\\themlichlam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|d:\\qlht\\qlhieuthuoc\\qlhieuthuoc\\forms\\thongke\\thongke.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|solutionrelative:qlhieuthuoc\\forms\\thongke\\thongke.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|d:\\qlht\\qlhieuthuoc\\qlhieuthuoc\\forms\\nhanvien\\themlichlam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|solutionrelative:qlhieuthuoc\\forms\\nhanvien\\themlichlam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|d:\\qlht\\qlhieuthuoc\\qlhieuthuoc\\forms\\thongke\\thongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AF183C98-B091-4920-B14C-79D71193BC4C}|QLHieuThuoc\\QLHieuThuoc.csproj|solutionrelative:qlhieuthuoc\\forms\\thongke\\thongke.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThemLichLam.xaml.cs",
-              "DocumentMoniker": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml.cs",
-              "RelativeDocumentMoniker": "QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml.cs",
-              "ToolTip": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml.cs",
-              "RelativeToolTip": "QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:05:45.315Z",
+              "DocumentIndex": 1,
+              "Title": "ThongKe.xaml",
+              "DocumentMoniker": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml",
+              "RelativeDocumentMoniker": "QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml",
+              "ToolTip": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml",
+              "RelativeToolTip": "QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T17:00:34.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ThemLichLam.xaml",
-              "DocumentMoniker": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml",
-              "RelativeDocumentMoniker": "QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml",
-              "ToolTip": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml",
-              "RelativeToolTip": "QLHieuThuoc\\forms\\NhanVien\\ThemLichLam.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-19T16:05:01.242Z",
+              "DocumentIndex": 0,
+              "Title": "ThongKe.xaml.cs",
+              "DocumentMoniker": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml.cs",
+              "RelativeDocumentMoniker": "QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml.cs",
+              "ToolTip": "D:\\QLHT\\QLHieuThuoc\\QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml.cs*",
+              "RelativeToolTip": "QLHieuThuoc\\forms\\ThongKe\\ThongKe.xaml.cs*",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAwOgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:30:49.509Z",
               "EditorCaption": ""
             }
           ]

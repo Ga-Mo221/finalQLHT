@@ -262,7 +262,7 @@ namespace QLHieuThuoc.forms
         {
             CheckSelectButton("ThongKe");
 
-            Mo(grid_NoiDung, child, new ThongKe(IdNv));
+            Mo(grid_NoiDung, child, new QLHieuThuoc.forms.ThongKe.ThongKe(IdNv));
         }
 
         // Khách hàng

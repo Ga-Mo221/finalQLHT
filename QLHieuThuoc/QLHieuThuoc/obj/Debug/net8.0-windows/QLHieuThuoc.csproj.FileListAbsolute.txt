@@ -371,3 +371,9 @@ D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\refint\QLHieuThuoc.dll
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\QLHieuThuoc.pdb
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\QLHieuThuoc.genruntimeconfig.cache
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\ref\QLHieuThuoc.dll
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\NhanVienBangThongKe.g.cs
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamHetHanBangThongKe.g.cs
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamSapHetBanThongKe.g.cs
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\NhanVienBangThongKe.baml
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamHetHanBangThongKe.baml
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamSapHetBanThongKe.baml

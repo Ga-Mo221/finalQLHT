@@ -218,3 +218,9 @@ Sunday
 Error: Grid size not defined!
 Image saved successfully at:
 Error saving image: 
+Low Stock Products
+Best-Selling Products
+Total Purchase Orders
+Total Cost
+Profit
+Total Customers Count

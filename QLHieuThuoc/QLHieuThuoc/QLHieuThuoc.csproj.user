@@ -134,5 +134,14 @@
     <Compile Update="UserControls\ThongBaosp\NoiDungThongBao.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserControls\ThongKe\NhanVienBangThongKe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ThongKe\SanPhamHetHanBangThongKe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ThongKe\SanPhamSapHetBanThongKe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

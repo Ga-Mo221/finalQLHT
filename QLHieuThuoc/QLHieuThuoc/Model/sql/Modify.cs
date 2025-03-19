@@ -387,6 +387,28 @@ namespace QLHieuThuoc.Model.sql
             return ghiChus;
         }
 
+        // check bang luong
+        public List<BangLuong> Bangluongs(string LenhTruyVan)
+        {
+            List<BangLuong> list = new List<BangLuong>();
+
+            using (SqlConnection sqlConnection = KetNoi.GetSqlconnection())
+            {
+                sqlConnection.Open();
+
+                sqlConmand = new SqlCommand(LenhTruyVan, sqlConnection);
+                dataReader = sqlConmand.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    list.Add(new BangLuong(dataReader.GetString(0), dataReader.GetString(1), dataReader.GetInt32(2), dataReader.GetInt32(3), dataReader.GetDateTime(4), dataReader.GetDecimal(5), dataReader.GetDecimal(6), dataReader.GetDecimal(7), dataReader.GetDecimal(8)));
+                }
+
+                sqlConnection.Close();
+            }
+
+            return list;
+        }
+
 
 
         public object LayGiaTri(string LenhTruyVan)
@@ -395,12 +417,13 @@ namespace QLHieuThuoc.Model.sql
             using (SqlConnection sqlConnection = KetNoi.GetSqlconnection())
             {
                 sqlConnection.Open();
-                sqlConmand = new SqlCommand(LenhTruyVan, sqlConnection);
-                result = sqlConmand.ExecuteScalar(); // Lấy giá trị đơn lẻ từ truy vấn
+                SqlCommand sqlCommand = new SqlCommand(LenhTruyVan, sqlConnection);
+                result = sqlCommand.ExecuteScalar();
                 sqlConnection.Close();
             }
-            return result ?? 0; // Trả về 0 nếu giá trị null để tránh lỗi
+            return result == DBNull.Value ? 0 : result; // Trả về 0 nếu kết quả là DBNull
         }
+
 
 
 
