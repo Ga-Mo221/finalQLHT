@@ -1,0 +1,269 @@
+﻿<Window x:Class="QLHieuThuoc.forms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLHieuThuoc.forms"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        Title="QLHT" Height="930" Width="1440">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="TongQuan" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" CornerRadius="10" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.MouseOver.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Pressed.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Border Background="#F7F7F7" 
+                CornerRadius="10"
+                BorderThickness="1"
+                BorderBrush="Black"
+                Padding="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="262"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+            
+                <!-- grid colunm 0 -->
+                <Border Background="#E2895A"
+                        CornerRadius="20"
+                        Grid.Column="0">
+                    <Grid>
+                        <Grid Margin="16">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.7*"></RowDefinition>
+                                <RowDefinition Height="1.5*"></RowDefinition>
+                                <RowDefinition Height="0.3*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="0.2*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="4*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                        
+                        
+                            <!-- logo và thương hiệu-->
+                            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                                <Grid Height="63" Width="63">
+                                    <Ellipse Height="63" Width="63" Fill="#FCF4F0"></Ellipse>
+                                    <Image Height="63" Width="63" Source="pack://application:,,,/Photos/logo.png"/>
+                                </Grid>
+                                <TextBlock Text="  QLHT" 
+                                           Style="{StaticResource CustomFont}" 
+                                           FontSize="21"
+                                           Foreground="#565656"
+                                           VerticalAlignment="Center">
+                                </TextBlock>
+                            </StackPanel>
+                        
+                                               
+                            <!-- Tổng quan -->
+                            <Button x:Name="bt_TongQuan" 
+                                    Style="{DynamicResource TongQuan}" 
+                                    Grid.Row="3"
+                                    Background="#E2895A" Click="bt_TongQuan_Click">
+                                <TextBlock x:Name="tbl_bt_TongQuan" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Tổng Quan
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- Sản phẩm -->
+                            <Button x:Name="bt_SanPham" 
+                                    Style="{DynamicResource TongQuan}" 
+                                    Grid.Row="5"
+                                    Background="#E2895A" Click="bt_SanPham_Click">
+                                <TextBlock x:Name="tbl_bt_SanPham" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Sản Phẩm
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- Bán hàng -->
+                            <Button x:Name="bt_BanHang" 
+                                    Style="{DynamicResource TongQuan}" Grid.Row="7"
+                                    Background="#E2895A" Click="bt_BanHang_Click">
+                                <TextBlock x:Name="tbl_bt_BanHang" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Bán Hàng
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- Nhập hàng -->
+                            <Button x:Name="bt_NhapHang" 
+                                    Style="{DynamicResource TongQuan}" Grid.Row="9"
+                                    Background="#E2895A" Click="bt_NhapHang_Click">
+                                <TextBlock x:Name="tbl_bt_NhapHang" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Nhập Hàng
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- Khách Hàng -->
+                            <Button x:Name="bt_KhachHang" 
+                                    Style="{DynamicResource TongQuan}" Grid.Row="11"
+                                    Background="#E2895A" Click="bt_KhachHang_Click">
+                                <TextBlock x:Name="tbl_bt_KhachHang" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Khách Hàng
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- Nhân viên -->
+                            <Button x:Name="bt_NhanVien" 
+                                    Style="{DynamicResource TongQuan}" Grid.Row="13"
+                                    Background="#E2895A" Click="bt_NhanVien_Click">
+                                <TextBlock x:Name="tbl_bt_NhanVien" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                     Nhân Viên
+                                </TextBlock>
+                            </Button>
+                            
+                            
+                            <!-- Thống kê -->
+                            <Button x:Name="bt_ThongKe" 
+                                    Style="{DynamicResource TongQuan}" Grid.Row="15"
+                                    Background="#E2895A" Click="bt_ThongKe_Click">
+                                <TextBlock x:Name="tbl_bt_ThongKe" 
+                                           FontSize="20"
+                                           FontFamily="Cascadia Mono"
+                                           Foreground="#FCF4F0">
+                                    Thống Kê
+                                </TextBlock>
+                            </Button>
+                        
+                        
+                            <!-- cài đặt và đăng xuất-->
+                            <Grid Grid.Row="16">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="1.6*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="0.2*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="0.3*"/>
+                                </Grid.RowDefinitions>
+                                    <!-- Cài Đặt -->
+                                    <Button x:Name="bt_CaiDat" 
+                                            Style="{DynamicResource TongQuan}"
+                                            Background="#E2895A" 
+                                            Click="bt_CaiDat_Click"
+                                            Grid.Row="1">
+                                        <TextBlock x:Name="tbl_bt_CaiDat" 
+                                                    FontSize="20"
+                                                    FontFamily="Cascadia Mono"
+                                                    Foreground="#FCF4F0">
+                                            Cài Đặt
+                                        </TextBlock>
+                                    </Button>
+                                    <!-- Đăng Xuất -->
+                                    <Button x:Name="bt_DangXuat"
+                                            Style="{DynamicResource TongQuan}"
+                                            Background="#E2895A" Click="bt_DangXuat_Click"
+                                            Grid.Row="3">
+                                        <TextBlock x:Name="tbl_bt_DangXuat" 
+                                                    FontSize="20"
+                                                    FontFamily="Cascadia Mono"
+                                                    Foreground="#FCF4F0">
+                                            Đăng Xuất
+                                        </TextBlock>
+                                    </Button>
+                                    <Grid Height="24"/>
+                            </Grid>
+                        </Grid>
+
+                    </Grid>
+                </Border>
+
+                <Grid x:Name="grid_NoiDung" Grid.Column="1" Margin="20"></Grid>
+            
+            </Grid>
+        </Border>
+        <Rectangle x:Name="Overlay"
+               Fill="Black"
+               Opacity="0"
+               Visibility="Collapsed"
+               Panel.ZIndex="1"/>
+    </Grid>
+</Window>
