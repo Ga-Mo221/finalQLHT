@@ -71,7 +71,7 @@ namespace QLHieuThuoc.forms.NhanVien
             string filename = $"{Baangluong.Ten}_{Baangluong.Thang}_{Baangluong.Nam}";
 
             LuuAnh xuatfile = new LuuAnh();
-            xuatfile.SaveGridAsImage(border_bangluong, filename, NN.folderPathLuong);
+            xuatfile.SaveGridAsPdf(border_bangluong, filename, NN.folderPathLuong);
         }
     }
 }

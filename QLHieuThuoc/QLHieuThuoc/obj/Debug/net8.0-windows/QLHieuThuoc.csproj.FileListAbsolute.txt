@@ -377,3 +377,7 @@ D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\Sa
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\NhanVienBangThongKe.baml
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamHetHanBangThongKe.baml
 D:\QLHT\QLHieuThuoc\QLHieuThuoc\obj\Debug\net8.0-windows\UserControls\ThongKe\SanPhamSapHetBanThongKe.baml
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\bin\Debug\net8.0-windows\PdfSharp.dll
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\bin\Debug\net8.0-windows\de\PdfSharp.Charting.resources.dll
+D:\QLHT\QLHieuThuoc\QLHieuThuoc\bin\Debug\net8.0-windows\de\PdfSharp.resources.dll

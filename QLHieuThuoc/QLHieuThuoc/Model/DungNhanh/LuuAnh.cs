@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Controls;
-using System.Windows.Media.Imaging;
-using System.Windows.Media;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
 using QLHieuThuoc.forms;
 using QLHieuThuoc.Model.Files;
 
@@ -15,11 +13,10 @@ namespace QLHieuThuoc.Model.DungNhanh
 {
     class LuuAnh
     {
-        public void SaveGridAsImage(Border grid, string fileName, string folderPath)
+        public void SaveGridAsPdf(Border grid, string fileName, string folderPath)
         {
             try
             {
-                // Xác định kích thước của Grid
                 int width = (int)grid.ActualWidth;
                 int height = (int)grid.ActualHeight;
 
@@ -35,19 +32,33 @@ namespace QLHieuThuoc.Model.DungNhanh
                     Directory.CreateDirectory(folderPath);
                 }
 
-                // Đường dẫn đầy đủ của file
-                string fullPath = Path.Combine(folderPath, $"{fileName}.png");
+                string fullPath = Path.Combine(folderPath, $"{fileName}.pdf");
 
-                // Render Grid thành Bitmap
+                // Render Border thành Bitmap
                 RenderTargetBitmap renderBitmap = new RenderTargetBitmap(width, height, 96d, 96d, PixelFormats.Pbgra32);
                 renderBitmap.Render(grid);
 
-                // Lưu ảnh thành PNG
-                using (FileStream outStream = new FileStream(fullPath, FileMode.Create))
+                // Chuyển Bitmap thành MemoryStream
+                PngBitmapEncoder encoder = new PngBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(renderBitmap));
+                using MemoryStream ms = new MemoryStream();
+                encoder.Save(ms);
+                ms.Position = 0;
+
+                // Chuyển thành Pdf
+                using (PdfDocument document = new PdfDocument())
                 {
-                    PngBitmapEncoder encoder = new PngBitmapEncoder();
-                    encoder.Frames.Add(BitmapFrame.Create(renderBitmap));
-                    encoder.Save(outStream);
+                    PdfPage page = document.AddPage();
+                    page.Width = width;
+                    page.Height = height;
+
+                    using (XGraphics gfx = XGraphics.FromPdfPage(page))
+                    {
+                        XImage image = XImage.FromStream(ms);
+                        gfx.DrawImage(image, 0, 0, width, height);
+                    }
+
+                    document.Save(fullPath);
                 }
 
                 ThongBao.Show(NN.nn[2], $"{NN.nn[218]}\n{fullPath}", "Cam");
@@ -57,6 +68,5 @@ namespace QLHieuThuoc.Model.DungNhanh
                 ThongBao.Show(NN.nn[77], NN.nn[219] + ex.Message, "Do");
             }
         }
-
     }
 }

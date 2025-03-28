@@ -9,7 +9,8 @@
         AllowsTransparency="True"
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
-        Title="Đăng Nhập" Height="574" Width="800">
+        Title="Đăng Nhập" Height="574" Width="800"
+        Icon="/Photos/QLHT.ico">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">

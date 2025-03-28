@@ -53,7 +53,7 @@ namespace QLHieuThuoc.forms.DonBanHang
             LuuAnh xuatanh = new LuuAnh();
             string filename = $"{idhd}_{DateTime.Now.Day}D_{DateTime.Now.Month}M_{DateTime.Now.Year}Y_{DateTime.Now.Hour}H_{DateTime.Now.Minute}m";
 
-            xuatanh.SaveGridAsImage(border_HoaDon, filename, NN.folderPathHoaDon);
+            xuatanh.SaveGridAsPdf(border_HoaDon, filename, NN.folderPathHoaDon);
             this.Close();
         }
 

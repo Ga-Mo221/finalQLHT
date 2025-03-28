@@ -196,13 +196,13 @@
                             </Grid.RowDefinitions>
 
                             <Grid Grid.Row="1" Grid.Column="1">
-                                <Ellipse Fill="#F7F7F7"></Ellipse>
+                                <Image Source="pack://application:,,,/Photos/SP1.png"/>
                             </Grid>
                             <Grid Grid.Row="3" Grid.Column="1">
-                                <Ellipse Fill="#F7F7F7"></Ellipse>
+                                <Image Source="pack://application:,,,/Photos/SP2.png"/>
                             </Grid>
                             <Grid Grid.Row="5" Grid.Column="1">
-                                <Ellipse Fill="#F7F7F7"></Ellipse>
+                                <Image Source="pack://application:,,,/Photos/SP3.png"/>
                             </Grid>
 
                             <Grid Grid.Row="1" Grid.Column="3">
@@ -308,7 +308,7 @@
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
                                 <Grid Grid.Row="1">
-                                    <Ellipse Fill="#E2895A"></Ellipse>
+                                    <Image Source="pack://application:,,,/Photos/SP4.png"/>
                                 </Grid>
                             </Grid>
                             <Grid Grid.Column="3">
@@ -348,7 +348,7 @@
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
                                 <Grid Grid.Row="1">
-                                    <Ellipse Fill="#E2895A"></Ellipse>
+                                    <Image Source="pack://application:,,,/Photos/SP6.png"/>
                                 </Grid>
                             </Grid>
                             <Grid Grid.Column="3">
@@ -399,7 +399,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Grid>
-                                    <Ellipse Fill="#E2895A"/>
+                                    <Image Source="pack://application:,,,/Photos/SP5.png"/>
                                 </Grid>
 
                                 <DockPanel Grid.Column="2">
