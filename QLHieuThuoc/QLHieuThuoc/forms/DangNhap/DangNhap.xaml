@@ -405,7 +405,8 @@
                 CornerRadius="35"
                 BorderThickness="1"
                 BorderBrush="Black"
-                Padding="15">
+                Padding="15"
+                MouseLeftButtonDown="Border_MouseLeftButtonDown">
             <Grid>
                 <Grid>
                     <Grid.Resources>

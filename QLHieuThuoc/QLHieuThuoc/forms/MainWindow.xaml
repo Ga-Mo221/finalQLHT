@@ -73,7 +73,8 @@
                 CornerRadius="10"
                 BorderThickness="1"
                 BorderBrush="Black"
-                Padding="20">
+                Padding="20"
+                MouseLeftButtonDown="Border_MouseLeftButtonDown">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="262"></ColumnDefinition>
