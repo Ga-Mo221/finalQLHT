@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="QLHieuThuoc.forms.FNhanVien.LichLam"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QLHieuThuoc.forms.FNhanVien"
+             mc:Ignorable="d" 
+             d:DesignHeight="703" d:DesignWidth="1096">
+
+    <Grid  Background="#F7F7F7">
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="Cascadia Mono"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Foreground" Value="#565656"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!-- Hiển thị thứ trong tuần -->
+            <TextBlock x:Name="thu2" Text="Thứ Hai" Grid.Column="0"/>
+            <TextBlock x:Name="thu3" Text="Thứ Ba" Grid.Column="1"/>
+            <TextBlock x:Name="thu4" Text="Thứ Tư" Grid.Column="2"/>
+            <TextBlock x:Name="thu5" Text="Thứ Năm" Grid.Column="3"/>
+            <TextBlock x:Name="thu6" Text="Thứ Sáu" Grid.Column="4"/>
+            <TextBlock x:Name="thu7" Text="Thứ Bảy" Grid.Column="5"/>
+            <TextBlock x:Name="chunhat" Text="Chủ Nhật" Grid.Column="6"/>
+        </Grid>
+
+        <Grid x:Name="gridngay" Grid.Row="2">
+            
+        </Grid>
+
+
+    </Grid>
+</UserControl>
