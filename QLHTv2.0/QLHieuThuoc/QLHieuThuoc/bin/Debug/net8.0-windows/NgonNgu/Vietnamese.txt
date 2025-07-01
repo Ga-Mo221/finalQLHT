@@ -1,0 +1,226 @@
+Tiếng Việt
+Vui lòng nhập mật khẩu!
+Thông Báo
+Tên đăng nhập hoặc mật khẩu không chính xác
+Tài Khoản
+Mã Nhân Viên
+Vui lòng nhập ID Nhân Viên
+Vui lòng nhập Tài Khoản
+Vui lòng nhập Mật Khẩu
+Bạn đã đăng ký thành công. Hãy quay lại để đăng nhập.
+Tài Khoản đã tồn tại!
+Mã Nhân Viên này đã được đăng ký Tài Khoản!
+ID nhân viên không tồn tại!
+Hãy đăng ký tài khoản tại đây
+Mật Khẩu
+Quên Mật Khẩu?
+Đăng Nhập
+Bạn chưa có tài khoản?
+Đăng Ký
+Hãy đăng ký tài khoản tại đây
+Bạn đã có tài khoản?
+Thoát
+Hãy điền đầy đủ thông tin
+Mật Khẩu Mới
+Xác Nhận
+Tài Khoản không chính xác!
+Đổi Mật Khẩu thành công.
+Tổng Quan
+Sản Phẩm
+Bán Hàng
+Nhập Hàng
+Thống Kê
+Khách Hàng
+Nhân Viên
+Cài Đặt
+Đăng Xuất
+Tổng Sản Phẩm
+Sản Phẩm Trong Kho
+Sản Phẩm Đã Hết
+Tìm Kiếm...
+Thêm Sản Phẩm
+Mã Sản Phẩm
+Tên Sản Phẩm
+Số Lượng
+Giá Bán
+Tình Trạng
+Loại
+Thuốc Kháng Sinh
+Thuốc Giảm Đau
+Vitamin
+Thực Phẩm Bổ Sung
+Thuốc Kháng Virus
+Thuốc Tim Mạch
+Thuốc Dị Ứng
+Thuốc Hô Hấp
+Số Lượng
+Giá Nhập
+Giá Bán
+Thành Phần
+Công Dụng
+Chú Ý
+Hàm Lượng
+Cách Dùng
+Thêm
+Hủy
+Thiếu thông tin
+Đã Update Thành Công. Cửa Sổ Sẽ Bị Đóng Lại.
+Đã Thêm Thành Công. Cửa Sổ Sẽ Bị Đóng Lại.
+Thông Tin Sản Phẩm
+Loại Sản Phẩm
+Hạn Sử Dụng
+Bạn có muốn xóa sản phẩm này không?
+Bạn đã xóa thành công. Cửa sổ sẽ bị đóng lại.
+Đã Thêm Thành Công
+Số lượng phải là số nguyên!
+Giá nhập phải là số thực!
+Giá bán phải là số thực!
+Lỗi
+Nhà Cung Cấp
+Tổng Đơn Nhập
+Mã Đơn Nhập
+Mã Nhà Cung Cấp
+Ngày Nhập
+Tổng Tiền
+Phương Thức
+Đơn Nhập Hàng Mới
+Địa Chỉ
+Số Điện Thoại
+Tổng Tiền
+Thêm sản Phẩm
+Tên Nhà Cung Cấp
+Áp Dụng
+Đã Cập Nhật Thành Công!
+Chi Tiết Đơn Hàng
+THÔNG TIN ĐƠN HÀNG
+ID
+Thanh Toán
+THÔNG TIN NHÀ CUNG CẤP
+Tên
+SDT
+Loại Sản Phẩm
+Tổng Số Đơn Bán
+Đơn Bán Tháng Này
+Mã Đơn Bán
+Mã Khách Hàng
+Tạo Hóa Đơn Mới
+Điểm
+Mua
+Xác Nhận Mua Hàng
+Bạn có muốn dùng điểm không?
+Nhập Số Điểm...
+Tên Khách Hàng
+100...
+THÔNG TIN KHÁCH HÀNG
+Ngày Bán
+Tổng Khách Hàng
+Khách Hàng Mới
+Ngày Thêm
+Tháng Trước
+Tháng Này
+Tiền Mặt
+Phương Thức Thanh Toán
+Đã Nhập Hàng Thành Công!
+Chưa Nhập Tên Nhà Cung Cấp!
+Chưa Nhập Địa Chỉ!
+Chưa Nhập Số Điện Thoại!
+Chưa Thêm Sản Phẩm!
+Chưa Chọn Phương Thức Thanh Toán!
+Chuyển Khoản
+Hết Hàng
+Sắp Hết Hàng
+Còn Hàng
+Chưa Nhập Tên Khách Hàng!
+Đã Cập Nhật Số Lượng
+Đã Thêm Vào Giỏ Hàng
+Chưa Nhập Số Lượng
+Số Lượng Vượt Quá Trong Kho!
+Trạng Thái
+Nhập Không Chính Xác!
+Số Điểm Đã Bị Vượt Quá!
+Ngôn Ngữ đã được Thay đổi
+Ngôn Ngữ
+Đã Tạo hóa Đơn Thành Công!
+Toàn Màn Hình
+Thu Nhỏ
+Tỉ Lệ Màn Hình
+Danh Thu
+Lượt Mua
+Tổng Danh Thu
+Đơn Hàng Mới Nhất
+Thuốc Bán Chạy Nhất
+Lịch Làm
+Quản Lý Giờ Làm
+Bảng Lương
+Ngôn Ngữ Chưa Sẳn Sàn!
+Nhân Viên
+Quản Lý
+Thêm Nhân Viên
+Chưa nhập tên nhân viên!
+Đã Thêm Nhân Viên Thành Công!
+Sửa
+Tổng Nhân Viên
+Nhân Viên Mới
+Chức Vụ
+Ngày Làm
+Giờ Ra
+Giờ Vào
+Tổng Giờ Làm
+Tên Nhân Viên
+NGÀY
+Lịch Làm
+Thêm Nhân Viên
+Ghi Chú
+Xuất Hóa Đơn
+Tháng
+Năm
+Ngày Tạo
+Tiền Thưởng
+Tiền Trợ Cấp
+Số Giờ Làm
+Lương
+Tên
+Mã Bảng Lương
+Tháng Lương
+Đường Dẫn Lưu Bảng Lương
+Đường Dẫn Lưu Hóa Đơn
+Hóa Đơn
+Không
+Xuất
+HÓA ĐƠN TẠM TÍNH
+Thành Tiền
+Ngày
+Thu Ngân
+Mã Đơn
+Tổng Thành Tiền
+Sản phẩm
+hiện tại trong kho không còn sản phẩm nào!
+Hiện tại chỉ còn lại
+sản phẩm trong kho!
+Hiện tại đã hết hạn sử dụng!
+hạn sử dụng chỉ còn lại dưới 7 ngày!
+hạn sử dụng chỉ còn lại dưới 1 tháng!
+Thiếu Thông Tin!
+Mật Khẩu không Chính Xác!
+Nhập Lại Mật Khẩu Không Chính Xác!
+Đổi Mật Khẩu
+Mật Khẩu Cũ
+Nhập Lại Mật Khẩu
+Lưu
+Ngày Mua
+Thứ Hai
+Thứ Ba
+Thứ Tư
+Thứ Năm
+Thứ Sáu
+Thứ Bảy
+Chủ Nhật
+Lỗi: Kích Thước Grid Chưa Xác Định!
+Lưu Hình Ảnh Thành Công Tại:
+Lỗi Khi Lưu Ảnh: 
+Sản Phẩm Sắp Hết
+Sản Phẩm Bán Chạy Nhất
+Tổng Số Đơn Nhập
+Tổng Chi Phí
+Lợi Nhuận
+Tổng Số Lượng Khách Hàng
